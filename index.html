@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="all">
+      <div class="l1">
+        <img src="./img/logo.svg" alt="logo" />
+        <div class="l1-1">
+            <h1 id="currentLocation">16°</h1> 
+           <div class="l1-2">
+            <h2 id="locationName">London</h2>
+            <p id="localTime">06:09 - Monday, 9 Sep ‘23</p>
+        </div>
+        <div class="l1-3"><img src="./img/outline.svg" alt="outline" style="padding: 0;" id="weatherIcon"></div>
+        </div>
+    </div>
+      <div class="l2">
+        <input id="searchInput" type="search" placeholder="Search Location...">
+        <h5>Weather Details...</h5>
+        <h5>site last update:<p id="update"></p></h5>
+        <div class="l2-1">
+            <div class="p"><p>Temp max</p><p id="currentLocation">19°</p></div>
+            <div class="p"><p>Temp min</p><p>15°</p></div>
+            <div class="p"><p>Humidity</p><p id="humidity">58%</p></div>
+            <div class="p"><p>Cloudy</p><p id="cloud">86% ||||</p></div>
+            <div class="p"><p>Wind</p><p id="wind">5km/h  >></p></div>
+            <hr style="width: 65%; margin-top: 25px;">
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
